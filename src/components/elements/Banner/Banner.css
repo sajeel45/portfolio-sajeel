@@ -1,0 +1,69 @@
+
+.image-wrapper img{
+    position: relative;
+    width: 400px;
+    border-radius: 50%;
+}
+.banner-wrapper{
+    padding: 60px 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+}
+.banner-wrapper::before{
+    background: rgba(0, 0, 0, 0.733);
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
+.banner-content-wrapper{
+    padding-top: 20px;
+    position: relative;
+}
+.banner-content-wrapper h2{
+    font-size: 18px;
+    letter-spacing: 0.9px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 0 0 15px;
+    color: #fff;
+}
+.banner-content-wrapper h3{
+    text-transform: uppercase;
+    margin: 0 0 15px;
+    color: #fff;
+}
+.banner-content-wrapper span{
+    color: #fff;
+}
+.banner-social-icons-wrapper{
+    padding: 15px;
+    position: relative;
+}
+.banner-social-icons-wrapper a{
+    margin-right: 10px;
+}
+.banner-buttons-wrapper{
+    position: relative;
+    padding: 20px 0;
+}
+.banner-buttons-wrapper a{
+    padding: 10px 30px;
+    border-radius: 30px;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.about-me-button{
+background-color: darkgrey;
+}
+.my-projects-button{
+    background-color: #64BD00;
+}

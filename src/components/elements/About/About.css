@@ -1,0 +1,55 @@
+.about-wrapper{
+    padding: 100px 0;
+}
+.heading h1{
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0 0 60px;
+    text-align: center;
+}
+.heading span{
+    color: #64BD00;
+}
+.about-content-wrapper span{
+    color: #64BD00;
+}
+.heading h1{
+    position: relative;
+}
+.heading h1::before{
+    width: 150px;
+    height: 5px;
+    background-color: #313131;
+    position: absolute;
+    content: '';
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: -10px;
+}
+.heading h1::after{
+    content: "";
+    width: 70px;
+    height: 5px;
+    background-color: #64BD00;
+    position: absolute;
+    content: '';
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: -10px;
+}
+.personal-info-wrapper span{
+    font-weight: 500;
+    
+}
+.personal-info-wrapper div{
+    margin-bottom: 10px;
+}
+.contact-info-wrapper span{
+    font-weight: 500;
+}
+.contact-info-wrapper div{
+    margin-bottom: 10px;
+}

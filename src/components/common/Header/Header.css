@@ -1,0 +1,24 @@
+.navbar-wrapper{
+    padding: 10px;
+    background-color: #64BD00;
+}
+.navbar-logo-wrapper{
+    padding: 10px 0px;
+}
+.navbar-logo-wrapper a{
+    text-decoration: none;
+}
+.navbar-logo-wrapper a h3{
+    color: #fff;
+    margin-bottom: 0;
+}
+.navbar-links-wrapper{
+    padding: 0 50px;
+}
+.nav-link-item{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 20px;
+    text-align: right;
+    font-weight: 700;
+}
