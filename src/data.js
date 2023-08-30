@@ -1,4 +1,15 @@
 import { FaBook, FaCalendar,FaBuilding,FaHtml5,FaCode,FaMobile,FaPen,FaPalette,FaFile,FaHandshake } from "react-icons/fa";
+import appico from "./assets/projects/appico.jpg";
+import lawyero from "./assets/projects/lawyero.jpg";
+import ebay from "./assets/projects/ebay.jpg";
+import resume from "./assets/projects/resume.jpg";
+import hiking from "./assets/projects/hiking.jpg";
+import blog1 from "./assets/blogs/blog-1.jpg";
+import blog2 from "./assets/blogs/blog-2.jpg";
+import blog3 from "./assets/blogs/blog-3.jpg";
+import blog4 from "./assets/blogs/blog-4.jpg";
+import blog5 from "./assets/blogs/blog-5.jpg";
+import blog6 from "./assets/blogs/blog-6.jpg";
 
 const personalinfo = [
   {
@@ -208,6 +219,97 @@ const services = [
         description:"Offering lifetime support as a skill, I provide unwavering assistance and guidance throughout the entire journey. From initial implementation to ongoing maintenance, my commitment ensures that projects and solutions continue to thrive."
     }
 
+];
+
+const projects = [
+  {
+    id:1,
+    title:"Appico-App",
+    link:"https://appico-app.netlify.app/",
+    src:appico,
+    description:"It is an informational web app developed in React Js. It is my professional project. It is fully responsive for all type of screens."
+  },
+  {
+    id:2,
+    title:"Lawyero",
+    link:"https://lawyero-app.netlify.app/",
+    src:lawyero,
+    description:"It is a WordPress template developed by our Company. I have converted it into React web app. It's React part is made only for desktop version."
+  }
+  ,
+  {
+    id:3,
+    title:"Resume Project",
+    link:"https://resume-tas.netlify.app/",
+    src:resume,
+    description:"It is a resume project developed in html and bootstrap. It was a small task done by me. It is fully responsible for all screens."
+  }
+  ,
+  {
+    id:4,
+    title:"Ebay Listing Landing Page",
+    link:"https://ebay-task.netlify.app/",
+    src:ebay,
+    description:"It is an ebay Listing page project. It is also a professional project. It was delievered successfully and happily to the client. It is fully responsible for all screens."
+  },
+  {
+    id:5,
+    title:"Hiking Camping Shopify Landing Page",
+    link:"https://hiking-camping-app.netlify.app/",
+    src:hiking,
+    description:"It is my first React Js project. I developed this landing page for my practice in React. It is made only for desktop version."
+  }
+];
+
+const blogs = [
+  {
+    id:1,
+    src:blog1,
+    title:"HOW TO CREATE FAMES",
+    date:"17 Jul 2023",
+    comments:"19 comments",
+    description:"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form."
+  },
+  {
+    id:2,
+    src:blog2,
+    title:"CONTRARY TO POPULAR BELIEF",
+    date:"28 July 2023",
+    comments:"24 comments",
+    description:"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form."
+  },
+  {
+    id:3,
+    src:blog3,
+    title:"THERE ARE MANY CONTENT",
+    date:"11 Aug 2023",
+    comments:"16 comments",
+    description:"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form."
+  },
+  {
+    id:4,
+    src:blog4,
+    title:"THERE ARE MANY PASSAGES",
+    date:"12 Feb 2023",
+    comments:"14 comments",
+    description:"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form."
+  },
+  {
+    id:5,
+    src:blog5,
+    title:"THE STANDARD EVEN BOOK",
+    date:"20 Mar 2023",
+    comments:"21 comments",
+    description:"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form."
+  },
+  {
+    id:6,
+    src:blog6,
+    title:"LOREM IPSUM SIMPLY DUMMY",
+    date:"06 May 2023",
+    comments:"12 comments",
+    description:"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form."
+  }
 ]
 
-export { personalinfo, contactinfo, education, experience, skills,services };
+export { personalinfo, contactinfo, education, experience, skills,services,projects,blogs };
