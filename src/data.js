@@ -1,4 +1,4 @@
-import { FaBook, FaCalendar,FaBuilding,FaHtml5,FaCode,FaMobile,FaPen,FaPalette,FaFile,FaHandshake } from "react-icons/fa";
+import { FaBook, FaCalendar,FaBuilding,FaHtml5,FaCode,FaMobile,FaPen,FaPalette,FaFile,FaHandshake, FaFacebook, FaLinkedin, FaEnvelope, FaPhone, FaInstagram, FaGithub, FaLocationArrow } from "react-icons/fa";
 import appico from "./assets/projects/appico.jpg";
 import lawyero from "./assets/projects/lawyero.jpg";
 import ebay from "./assets/projects/ebay.jpg";
@@ -10,6 +10,7 @@ import blog3 from "./assets/blogs/blog-3.jpg";
 import blog4 from "./assets/blogs/blog-4.jpg";
 import blog5 from "./assets/blogs/blog-5.jpg";
 import blog6 from "./assets/blogs/blog-6.jpg";
+import nldweb from "./assets/projects/nld-web.png"
 
 const personalinfo = [
   {
@@ -25,7 +26,7 @@ const personalinfo = [
   {
     id: 3,
     title: "Address: ",
-    description: "Raza Town, Faisalabad.",
+    description: "Office # 111, Mall of Faisalabad.",
   },
   {
     id: 4,
@@ -76,7 +77,7 @@ const education = [
     duration: "2020-2024",
     title: "Bachelors in Software Engineering",
     description:
-      "I started my bachelors in Software Engineering. I started my programming learning in bachelors. I learnt of basics of web development and started advancement in it.",
+      "I started my bachelors in Software Engineering. I started my programming learning in bachelors. I learnt basics of web development and started advancement in it.",
   },
   {
     id: 2,
@@ -93,7 +94,7 @@ const education = [
     icon1: <FaBook />,
     icon2: <FaCalendar />,
     institute: "City Grammar School",
-    duration: "2006-2018",
+    duration: "2016-2018",
     title: "Computer Science",
     description:
       "I completed my school in computer sciences. I passed my matriculaion with 90% marks. I learnt basics of programming including intro, algortithms, flowcharts etc.",
@@ -125,9 +126,9 @@ const experience = [
     icon1: <FaBuilding />,
     icon2: <FaCalendar />,
     title:"Next Js Developer",
-    institute:"Opus Tech",
-    duration:"2023-Currently Working",
-    description:"I further enhanced myself by learning NEXT JS. I learned backend in this framework. I worked with different API's. Now I am Full Stack Developer providing Dynamic solutions to my clients."
+    institute:"New Look Designs LTD",
+    duration:"2024-Currently Working",
+    description:"I further enhanced myself by learning NEXT JS. I learned backend and frontend integration as well. Now I am Full Stack Developer providing Dynamic solutions to my clients."
   }
 ];
 
@@ -159,8 +160,8 @@ const skills = [
     },
     {
         id:6,
-        skill:"Web Design",
-        percentage:"85%"
+        skill:"TypeScript",
+        percentage:"75%"
     },
     {
         id:7,
@@ -258,6 +259,27 @@ const projects = [
     link:"https://hiking-camping-app.netlify.app/",
     src:hiking,
     description:"It is my first React Js project. I developed this landing page for my practice in React. It is made only for desktop version."
+  },
+  {
+    id:6,
+    title:"New Look Designs",
+    link:"https://nld-frontend.vercel.app/",
+    src:nldweb,
+    description:"It is a digital ads agency website developed by me. The stack used in this project is Next Js and Typescript. For adding colors to UI I used Tailwind CSS. The website is fully responsive for all devices."
+  },
+  {
+    id:7,
+    title:"Yarnwise Dashboard",
+    link:"https://yarnwise209.vercel.app/",
+    src:"https://www.youtube.com/embed/0tWi1YQJMY0?si=u22s4H8jX7Du5uaA",
+    description:"It is my final year project of bachelors degree. It is a dashboard developed to provide digital solution to people working in yarn market. It efficiently handles the transactions, inventory and security for the system. The main feature is role base access system which is totally flexible providing enhanced security to the user."
+  },
+  {
+    id:8,
+    title:"New Look Designs Dashboard",
+    link:"",
+    src:"https://www.youtube.com/embed/MrNwnEsX8NI?si=djoa_LZUbBE08_TK",
+    description:"I have developed this Dashboard for New Look Designs Company. It is admin panel of their website which is also developed by me. This dashboard is developed in NEXT JS using Typescript and Tailwind CSS. It is fully functional and according to requirements of the company. It is not live yet by the company but you can watch its working in the video."
   }
 ];
 
@@ -310,6 +332,46 @@ const blogs = [
     comments:"12 comments",
     description:"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form."
   }
+];
+
+const contactItems = [
+  {
+    id:1,
+    icon:<FaLocationArrow size={20}/>,
+    title:"My Address: ",
+    content:"House # 3, Raza Town, Faisalabad."
+  },
+  {
+    id:2,
+    icon:<FaEnvelope size={20}/>,
+    title:"Email Me: ",
+    content:"msajeel065@gmail.com"
+  },
+  {
+    id:3,
+    icon:<FaPhone size={20}/>,
+    title:"Call Me: ",
+    content:"(+92) 301 0194545"
+  }
+];
+
+const socailLinks = [
+  {
+    id:1,
+    icon:<FaFacebook />
+  },
+  {
+    id:2,
+    icon:<FaLinkedin />
+  },
+  {
+    id:3,
+    icon:<FaInstagram  />
+  },
+  {
+    id:4,
+    icon:<FaGithub size={30}/>
+  }
 ]
 
-export { personalinfo, contactinfo, education, experience, skills,services,projects,blogs };
+export { personalinfo, contactinfo, education, experience, skills,services,projects,blogs,contactItems,socailLinks };

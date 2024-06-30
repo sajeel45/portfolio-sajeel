@@ -1,4 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
+import { AnimationOnScroll } from "react-animation-on-scroll";
+import "animate.css"
 import "./About.css";
 
 const About = (props) => {
@@ -7,7 +9,8 @@ const About = (props) => {
   return (
     /* About Section Starts from Here */
     <section>
-      <div className="about-wrapper">
+      <AnimationOnScroll animateIn="animate__fadeIn" animateOnce="true">
+      <div className="about-wrapper" id="about">
         <Container>
           <div className="heading">
             <h1>
@@ -50,7 +53,9 @@ const About = (props) => {
           </Row>
         </Container>
       </div>
+      </AnimationOnScroll>
     </section>
+    
     /* About Section Ends Here */
   );
 };

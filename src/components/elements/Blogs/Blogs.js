@@ -1,23 +1,28 @@
 import { Container, Row, Col } from "react-bootstrap";
 import { FaCalendar, FaComment, FaChevronRight } from "react-icons/fa";
+import { AnimationOnScroll } from "react-animation-on-scroll";
+import "animate.css"
 import "./Blogs.css";
 import { Link } from "react-router-dom";
 
 const Blogs = (props) => {
   const blogs = props.blogs;
   return (
-    <section className="blogs-section">
+    <section className="blogs-section" id="blogs">
       <Container>
+        <AnimationOnScroll animateIn="animate__fadeIn">
         <div className="heading">
           <h1>My Blogs</h1>
         </div>
+        </AnimationOnScroll>
         <div className="blogs-wrapper">
           <Row>
             {blogs.map((item, index) => (
               <Col lg="4" md="6" sm="12">
-                <div className="single-blog-wrapper">
+                <AnimationOnScroll animateIn="animate__fadeInUp" animateOnce="true">
+                <div className="single-blog-wrapper" key={index}>
                   <div className="blog-image-wrapper">
-                    <img src={item.src} alt="blog-image" />
+                    <img src={item.src} alt="blog-thumb" />
                   </div>
                   <div className="blog-content-wrapper">
                     <div className="blog-title-wrapper text-center">
@@ -43,6 +48,7 @@ const Blogs = (props) => {
                     </div>
                   </div>
                 </div>
+                </AnimationOnScroll>
               </Col>
             ))}
           </Row>

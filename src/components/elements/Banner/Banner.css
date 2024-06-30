@@ -5,7 +5,7 @@
     border-radius: 50%;
 }
 .banner-wrapper{
-    padding: 60px 0;
+    padding: 150px 0;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -38,7 +38,10 @@
     margin: 0 0 15px;
     color: #fff;
 }
-.banner-content-wrapper span{
+.typing-color{
+    color: #64bd00;
+}
+.myDescription{
     color: #fff;
 }
 .banner-social-icons-wrapper{
@@ -50,7 +53,8 @@
 }
 .banner-buttons-wrapper{
     position: relative;
-    padding: 20px 0;
+    display: flex;
+    justify-content: center;
 }
 .banner-buttons-wrapper a{
     padding: 10px 30px;
@@ -63,7 +67,15 @@
 }
 .about-me-button{
 background-color: darkgrey;
+transition: all 0.5s ease-out 0s;
+}
+.about-me-button:hover{
+    background-color: #64BD00;
 }
 .my-projects-button{
     background-color: #64BD00;
+    transition: all 0.5s ease-out 0s;
+}
+.my-projects-button:hover{
+    background-color: darkgrey;
 }
