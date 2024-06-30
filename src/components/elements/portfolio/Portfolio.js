@@ -27,6 +27,7 @@ const Portfolio = (props) => {
                       <div className="project-image-wrapper">
                         {item.id > 6 ? (
                           <iframe
+                          title={item.title}
                             width="560"
                             height="315"
                             src={item.src}

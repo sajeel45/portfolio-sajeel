@@ -270,6 +270,7 @@ const projects = [
   {
     id:7,
     title:"Yarnwise Dashboard",
+    title:"Title1",
     link:"https://yarnwise209.vercel.app/",
     src:"https://www.youtube.com/embed/0tWi1YQJMY0?si=u22s4H8jX7Du5uaA",
     description:"It is my final year project of bachelors degree. It is a dashboard developed to provide digital solution to people working in yarn market. It efficiently handles the transactions, inventory and security for the system. The main feature is role base access system which is totally flexible providing enhanced security to the user."
@@ -278,6 +279,7 @@ const projects = [
     id:8,
     title:"New Look Designs Dashboard",
     link:"",
+    title:"Title 2",
     src:"https://www.youtube.com/embed/MrNwnEsX8NI?si=djoa_LZUbBE08_TK",
     description:"I have developed this Dashboard for New Look Designs Company. It is admin panel of their website which is also developed by me. This dashboard is developed in NEXT JS using Typescript and Tailwind CSS. It is fully functional and according to requirements of the company. It is not live yet by the company but you can watch its working in the video."
   }
